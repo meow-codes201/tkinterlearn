@@ -1,0 +1,10 @@
+from tkinter import *
+window = Tk() 
+window.geometry("420x420")
+window.title("My First GUI")
+libicon = PhotoImage(file='D:/libraryManager/libicon.png')
+window.iconphoto(True, libicon)
+# window.config(background="#9a8cdf")
+label = Label(window,text="Hello World!",font=("Times New Roman",20))
+label.pack(pady=20)
+window.mainloop()
