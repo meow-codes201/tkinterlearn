@@ -1,10 +1,12 @@
 from tkinter import *
 from tkinter import colorchooser
 
-def color():
+def color1():
     color = colorchooser.askcolor()
-    print(color)
-
+    colorhex = color[1]
+    window.config(bg=colorhex)
+def color():
+    window.config(bg=colorchooser.askcolor()[1])
 window = Tk()
 
 window.geometry("600x800")
