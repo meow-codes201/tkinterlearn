@@ -14,7 +14,7 @@ entry = Entry(window,
               font=('Arial',50),
               fg='black',
               bg='violet',
-              show='*'
+     
               )
 #show is usually used for password fields
 entry.insert(0,'Username')
